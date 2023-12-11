@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "tonys_world",
+  "version": "${version}",
+  "name": "Tony's_world",
+  "description": "This is my world",
+  "authors": [
+    "tony"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/tonys_world/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tony.tonys_world.Tonys_world"
+    ],
+    "client": [
+      "net.tony.tonys_world.Tonys_worldClient"
+    ],
+    "fabric-datagen": [
+      "net.tony.tonys_world.Tonys_worldDataGenerator"
+    ]
+  },
+  "mixins": [
+    "tonys_world.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.3",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

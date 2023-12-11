@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tonys_world:ruby"
+    }
+  },
+  "result": {
+    "item": "tonys_world:ruby_block"
+  }
+}

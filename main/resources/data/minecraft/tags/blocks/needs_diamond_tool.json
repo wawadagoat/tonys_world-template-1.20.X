@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tonys_world:ruby_block",
+    "tonys_world:raw_ruby_block",
+    "tonys_world:ruby_ore",
+    "tonys_world:deepslate_ruby_ore"
+  ]
+}

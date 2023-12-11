@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tonys_world:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "tonys_world:ruby",
+    "count": 9
+  }
+}
